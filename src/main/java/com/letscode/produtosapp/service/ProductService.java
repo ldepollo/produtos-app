@@ -2,8 +2,8 @@ package com.letscode.produtosapp.service;
 
 import com.letscode.produtosapp.domain.Product;
 import com.letscode.produtosapp.dto.ProductRequestDto;
+import com.letscode.produtosapp.repository.ProductRepository;
 import org.springframework.stereotype.Service;
-import repository.ProductRepository;
 
 import java.util.List;
 

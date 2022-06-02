@@ -31,6 +31,16 @@ public class Product {
     @Column
     private double value;
 
+    public Product() {
+    }
+
+    public Product(UUID id, String sku, String name, double value) {
+        this.id = id;
+        this.sku = sku;
+        this.name = name;
+        this.value = value;
+    }
+
     public Product(String sku, String name, double value) {
         this.sku = sku;
         this.name = name;

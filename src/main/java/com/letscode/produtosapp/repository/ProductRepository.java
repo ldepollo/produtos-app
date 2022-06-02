@@ -1,4 +1,4 @@
-package repository;
+package com.letscode.produtosapp.repository;
 
 import com.letscode.produtosapp.domain.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
